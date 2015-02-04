@@ -13,6 +13,7 @@
 		C09C9C741A81AE6B00440FD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09C9C731A81AE6B00440FD5 /* Images.xcassets */; };
 		C09C9C771A81AE6B00440FD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09C9C751A81AE6B00440FD5 /* LaunchScreen.xib */; };
 		C09C9C831A81AE6B00440FD5 /* RelingslogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C9C821A81AE6B00440FD5 /* RelingslogTests.swift */; };
+		C09C9C8D1A81B08600440FD5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09C9C8C1A81B08600440FD5 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C09C9C7C1A81AE6B00440FD5 /* RelingslogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelingslogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09C9C811A81AE6B00440FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C09C9C821A81AE6B00440FD5 /* RelingslogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelingslogTests.swift; sourceTree = "<group>"; };
+		C09C9C8C1A81B08600440FD5 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C09C9C691A81AE6B00440FD5 /* Relingslog */ = {
 			isa = PBXGroup;
 			children = (
+				C09C9C8C1A81B08600440FD5 /* CircleView.swift */,
 				C09C9C6C1A81AE6B00440FD5 /* AppDelegate.swift */,
 				C09C9C6E1A81AE6B00440FD5 /* ViewController.swift */,
 				C09C9C701A81AE6B00440FD5 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09C9C8D1A81B08600440FD5 /* CircleView.swift in Sources */,
 				C09C9C6F1A81AE6B00440FD5 /* ViewController.swift in Sources */,
 				C09C9C6D1A81AE6B00440FD5 /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +411,7 @@
 				C09C9C881A81AE6B00440FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09C9C891A81AE6B00440FD5 /* Build configuration list for PBXNativeTarget "RelingslogTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				C09C9C8B1A81AE6B00440FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
