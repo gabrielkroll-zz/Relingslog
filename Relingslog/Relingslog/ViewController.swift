@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     // MARK:  properties
     // for calculation
     var length : Double {
-        var textFieldInsertLengthIntoDoubleValue = (textFieldInsertLength.text as NSString).doubleValue
+        var textFieldInsertLengthIntoDoubleValue = (textFieldInsertLength.text! as NSString).doubleValue
         return textFieldInsertLengthIntoDoubleValue
     }
     
