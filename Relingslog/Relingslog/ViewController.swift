@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
     
     var time : Double {
-        var timeStringIntoDoubleValue = (labelOutletForSecondsCount.text ?? "0" as NSString).doubleValue
+        let timeStringIntoDoubleValue = (labelOutletForSecondsCount.text ?? "0" as NSString).doubleValue
         return timeStringIntoDoubleValue
     }
     
@@ -170,7 +170,7 @@ class ViewController: UIViewController {
     }
     
     func timerUpdate() {
-        var currentTime = NSDate.timeIntervalSinceReferenceDate()
+        let currentTime = NSDate.timeIntervalSinceReferenceDate()
         
         // Finde the difference between current time and start time.
         var elapsedTime : NSTimeInterval = currentTime - startTime
